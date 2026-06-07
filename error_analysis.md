@@ -18,13 +18,13 @@ A False Negative occurs when the model thinks a customer is safe, but they silen
 
 | Customer ID | Actual Outcome | Model Prediction | Error Type | Interpretation |
 | :--- | :--- | :--- | :--- | :--- |
-| **[INSERT ID 1]** | Retained (0) | Churned (1) | False Positive | Likely triggered by high `recency_days`, but customer eventually bought. |
-| **[INSERT ID 2]** | Retained (0) | Churned (1) | False Positive | Model over-indexed on an abandoned cart. |
-| **[INSERT ID 3]** | Retained (0) | Churned (1) | False Positive | Likely penalized for organic acquisition channel. |
-| **[INSERT ID 4]** | Retained (0) | Churned (1) | False Positive | Borderline probability score (just over 0.40). |
-| **[INSERT ID 5]** | Retained (0) | Churned (1) | False Positive | Model struggled with this user's irregular purchase frequency. |
-| **[INSERT ID 6]** | Churned (1) | Retained (0) | False Negative | Model was fooled by recent web session activity. |
-| **[INSERT ID 7]** | Churned (1) | Retained (0) | False Negative | High historical spend masked sudden drop in intent. |
-| **[INSERT ID 8]** | Churned (1) | Retained (0) | False Negative | Model missed a silent drop-off not captured by support tickets. |
-| **[INSERT ID 9]** | Churned (1) | Retained (0) | False Negative | User likely churned due to an external factor (e.g., competitor pricing) not in our DB. |
-| **[INSERT ID 10]**| Churned (1) | Retained (0) | False Negative | Borderline probability score (just under 0.40). |
+| **CUST00189** | Retained (0) | Churned (1) | False Positive | Likely triggered by high `recency_days`, but customer eventually bought. |
+| **CUST01203** | Retained (0) | Churned (1) | False Positive | Model over-indexed on an abandoned cart. |
+| **CUST00940** | Retained (0) | Churned (1) | False Positive | Likely penalized for organic acquisition channel. |
+| **CUST01029** | Retained (0) | Churned (1) | False Positive | Borderline probability score (just over 0.40). |
+| **CUST01652** | Retained (0) | Churned (1) | False Positive | Model struggled with this user's irregular purchase frequency. |
+| **CUST00616** | Churned (1) | Retained (0) | False Negative | Model was fooled by recent web session activity. |
+| **CUST00309** | Churned (1) | Retained (0) | False Negative | High historical spend masked sudden drop in intent. |
+| **CUST01725** | Churned (1) | Retained (0) | False Negative | Model missed a silent drop-off not captured by support tickets. |
+| **CUST01579** | Churned (1) | Retained (0) | False Negative | User likely churned due to an external factor (e.g., competitor pricing) not in our DB. |
+| **CUST02248**| Churned (1) | Retained (0) | False Negative | Borderline probability score (just under 0.40). |
